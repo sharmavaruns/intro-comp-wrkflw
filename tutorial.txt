@@ -215,7 +215,7 @@ conda install -n base nb_conda_kernels
 
 # start jupyter lab again
 
-jupyter lab --port=4200 --no-browswer &
+jupyter lab --port=4200 --no-browser &
 
 
 # now just go to your browser and refresh the tab at
@@ -277,7 +277,7 @@ conda env list
 
 # now you can delete the test environment
 
-conda remove -n test
+conda env remove -n test
 conda env list
 
 
